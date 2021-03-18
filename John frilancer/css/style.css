@@ -1,0 +1,32 @@
+html{
+    font-family: Heebo, sans-serif;
+}
+
+body{
+    padding: 10px 40px 25px 40px;
+}
+
+.block_raw{
+  display: flex;
+  justify-content: flex-end;
+  
+  
+  
+
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+.resume{
+    display: block;
+    margin: auto;
+}
+
+button{
+    background-color: red;
+}
+
+
