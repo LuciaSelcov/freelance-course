@@ -1,32 +1,134 @@
-html{
-    font-family: Heebo, sans-serif;
-}
-
 body{
-    padding: 10px 40px 25px 40px;
+    max-width: 1100px;
+    margin: 0 auto;    
 }
 
 .block_raw{
-  display: flex;
-  justify-content: flex-end;
-  
-  
-  
-
-}
-
-main{
+    margin-right: 109px;
+    margin-left: 856px;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap-reverse;
+    margin-top: 27px;
+    justify-content: space-between;
+    justify-content: flex-end;
 }
-.resume{
-    display: block;
-    margin: auto;
+
+.wrapper{
+    
+}
+
+.container{
+    
+}
+
+.hi{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    background-color: coral;
+}
+
+.hi_body{
+    margin: 80px;
 }
 
 button{
-    background-color: red;
+    background-color: rgb(224, 49, 49);
 }
+
+.hi_img{
+    margin: 150px;
+}
+
+.head_posts{
+    padding: 0 80px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: rgb(140, 230, 152);
+}
+
+.posts_scratch{
+   padding: 0 80px; 
+}
+
+.posts_figma{
+    padding: 0 80px;
+}
+.posts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(140, 230, 152);  
+}
+.designed, .featured_works{
+    padding: 2px 80px;
+    background-color: rgb(140, 187, 230);  
+}
+
+.designed_img{
+    padding: 0 80px 0 0;
+}
+.designed{
+    padding: 20px 80px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.vibrand{
+    padding: 2px 80px;
+    background-color: rgb(194, 140, 230);  
+}
+
+.vibrand_img{
+    padding: 0 80px 0 0;
+}
+.vibrand{
+    padding: 20px 80px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.malayalam{
+    padding: 2px 80px;
+    background-color: rgb(229, 230, 140);  
+}
+
+.malayalam_img{
+    padding: 0 80px 0 0;
+}
+.malayalam{
+    padding: 20px 80px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.footer{
+   
+}
+.footer_row{
+    display: flex;
+    flex-direction: column;
+    height: 182px;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(199, 199, 152);
+    
+}
+
+.footer_img{
+
+}
+
+.footer_txt{
+    font-size: 14px;
+}
+
+
 
 
