@@ -1,15 +1,22 @@
+html{
+    font-family: 'Heebo', sans-serif;
+}
+
 body{
     max-width: 1100px;
     margin: 0 auto;    
 }
 
-.block_raw{
+.header_links{
     margin-right: 109px;
-    margin-left: 856px;
     display: flex;
-    margin-top: 27px;
-    justify-content: space-between;
     justify-content: flex-end;
+}
+
+.link{
+    text-decoration: none;
+    padding: 26px 18px;
+    display: flex;
 }
 
 .wrapper{
@@ -128,6 +135,20 @@ button{
 .footer_txt{
     font-size: 14px;
 }
+
+.blog{
+    padding:20px 235px;
+}
+
+.blog_title, .blog_date, .blog_txt{
+    margin: 5px 0;
+}
+
+.blog_title{
+    margin-top: 30px;
+}
+
+
 
 
 
