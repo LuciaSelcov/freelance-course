@@ -48,12 +48,32 @@ button{
     display: flex;
 }
 
+.post_links{
+    color: #00A8CC;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;   
+}
+
 .posts_card{
     background-color: white;
     border-radius: 4px;
     padding: 24px;
 }
 
+h3{
+font-size: 26px;
+font-weight: bold;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+p{
+    font-size: 16px;
+}
 .posts_card--first-element{
 margin-right: 20px;
 }
