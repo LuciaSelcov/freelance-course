@@ -30,12 +30,10 @@ body{
     background-color: coral;
 }
 
-.hi_body{
-    margin: 80px;
-}
-
 button{
     background-color: rgb(224, 49, 49);
+    font-size: medium;
+    color: #FFFFFF;
 }
 
 .hi_img{
@@ -75,7 +73,7 @@ p{
     font-size: 16px;
 }
 .posts_card--first-element{
-margin-right: 20px;
+    margin-right: 20px;
 }
 
 .head_posts{
@@ -91,53 +89,51 @@ margin-right: 20px;
     padding-bottom: 24px ;
 }
 
+.works{
+    justify-content: center;
+    display: flex;
+}
+
 .section_header{
     font-weight: 400;
     font-size: 22px;
 }
-.designed, .featured_works{
-    padding: 2px 80px;
-    background-color: rgb(140, 187, 230);  
+
+h2{
+    font-size: 30px;
+    color: #21243D;
+}
+.works_date{
+    font-size: 20px;
+    color: #8695A4;
 }
 
+
 .designed_img{
-    padding: 0 80px 0 0;
+    padding: 0 20px 0 0;
 }
 .designed{
-    padding: 20px 80px;
     justify-content: space-between;
     display: flex;
     align-items: center;
-}
-
-.vibrand{
-    padding: 2px 80px;
-    background-color: rgb(194, 140, 230);  
 }
 
 .vibrand_img{
-    padding: 0 80px 0 0;
+    padding: 0 20px 0 0;
 }
 .vibrand{
-    padding: 20px 80px;
     justify-content: space-between;
     display: flex;
     align-items: center;
-}
-
-.malayalam{
-    padding: 2px 80px;
-    background-color: rgb(229, 230, 140);  
 }
 
 .malayalam_img{
-    padding: 0 80px 0 0;
+    padding: 0 20px 0 0;
 }
 .malayalam{
-    padding: 20px 80px;
     justify-content: space-between;
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 
 .footer{
