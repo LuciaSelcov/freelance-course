@@ -142,16 +142,27 @@ h2{
 .footer_row{
     display: flex;
     flex-direction: column;
-    height: 182px;
+    height: 270px;
     justify-content: center;
     align-items: center;
-    background-color:rgb(199, 199, 152);
 }
 
-.footer_img{
-
+.footer_face{
+    padding: 2px 20px;
+}
+.footer_insta {
+    padding: 2px 20px;
+}
+.footer_group{
+    padding: 2px 20px;  
+}
+.footer_link{
+    padding: 2px 20px;   
 }
 
+.footer_txt{
+    font-size: 14px;
+}
 .footer_txt{
     font-size: 14px;
 }
