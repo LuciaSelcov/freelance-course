@@ -19,15 +19,25 @@ body{
 }
 
 .container{
-    max-width: 858px;
     margin: 0 42px;
+}
+.section_header{
+    align-items:flex-start;
 }
 
 .hi{
     justify-content: space-around;
     display: flex;
     align-items: center;
-    background-color: coral;
+}
+
+.hi_wrapper{
+display: flex;
+flex-direction: row;
+}
+
+.hi_title{
+    font-size: 44px;
 }
 
 button{
@@ -37,7 +47,7 @@ button{
 }
 
 .hi_img{
-    margin: 150px;
+    padding: 3px 30px 80px;
 }
 
 .posts{
@@ -72,6 +82,7 @@ h5{
 p{
     font-size: 16px;
 }
+
 .posts_card--first-element{
     margin-right: 20px;
 }
@@ -108,10 +119,10 @@ h2{
     color: #8695A4;
 }
 
-
 .designed_img{
     padding: 0 20px 0 0;
 }
+
 .designed{
     justify-content: space-between;
     display: flex;
@@ -121,6 +132,7 @@ h2{
 .vibrand_img{
     padding: 0 20px 0 0;
 }
+
 .vibrand{
     justify-content: space-between;
     display: flex;
@@ -130,15 +142,13 @@ h2{
 .malayalam_img{
     padding: 0 20px 0 0;
 }
+
 .malayalam{
     justify-content: space-between;
     display: flex;
     align-items: center; 
 }
 
-.footer{
-   
-}
 .footer_row{
     display: flex;
     flex-direction: column;
@@ -150,12 +160,15 @@ h2{
 .footer_face{
     padding: 2px 20px;
 }
+
 .footer_insta {
     padding: 2px 20px;
 }
+
 .footer_group{
     padding: 2px 20px;  
 }
+
 .footer_link{
     padding: 2px 20px;   
 }
@@ -163,6 +176,7 @@ h2{
 .footer_txt{
     font-size: 14px;
 }
+
 .footer_txt{
     font-size: 14px;
 }
